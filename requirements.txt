@@ -1,0 +1,93 @@
+# 核心依赖
+pandas>=1.3.0
+numpy>=1.20.0
+scikit-learn>=1.0.0
+matplotlib>=3.4.0
+seaborn>=0.11.0
+
+# 数据获取
+requests>=2.25.0
+beautifulsoup4>=4.9.0
+pymysql>=1.0.0
+
+# 数据分析
+ta-lib>=0.4.0
+statsmodels>=0.12.0
+
+# 自然语言处理
+nltk>=3.6.0
+jieba>=0.42.0
+transformers>=4.5.0
+
+# 数据库
+sqlalchemy>=1.4.0
+pymongo>=3.12.0
+
+# Web框架（如需Web接口）
+flask>=2.0.0
+
+# 测试
+pytest>=6.2.0
+
+# 工具
+tqdm>=4.60.0
+plotly>=5.0.0
+ipykernel>=6.0.0  # Jupyter支持
+
+# 基础依赖
+scipy>=1.7.0
+sentence-transformers>=2.1.0  # 用于文本分析
+
+# 深度学习
+tensorflow>=2.8.0
+torch>=1.9.0
+transformers>=4.11.0  # 用于BERT等模型
+
+# 数据处理
+yfinance>=0.1.70  # 股票数据
+tushare>=1.2.89  # 中国股票数据
+akshare>=1.8.0  # 金融数据
+redis>=4.0.0  # 缓存
+
+# Web框架
+fastapi==0.95.1
+uvicorn==0.22.0
+aiohttp==3.8.4
+websockets==11.0.3
+
+# 数据可视化
+plotly==5.14.1
+dash>=2.0.0
+
+# 自然语言处理
+textblob>=0.15.0
+spacy>=3.1.0
+
+# 时间序列分析
+arch>=5.0.0  # 波动率建模
+
+# 工具包
+python-dotenv==1.0.0
+loguru>=0.5.0
+black>=21.9b0
+flake8>=3.9.0
+
+# 文档
+sphinx>=4.2.0
+mkdocs>=1.2.0
+
+# 其他
+pytz>=2021.3
+python-dateutil>=2.8.2
+pandas-ta>=0.3.0  # 技术分析指标
+ta>=0.7.0  # 技术分析
+ccxt>=1.60.0  # 加密货币数据
+selenium>=4.0.0  # 网页自动化
+playwright>=1.16.0  # 现代网页自动化
+
+# 新增依赖
+akshare>=1.0.0
+talib-binary>=0.4.0
+asyncio>=3.4.3
+pytest-asyncio>=0.16.0
+jinja2==3.1.2 
